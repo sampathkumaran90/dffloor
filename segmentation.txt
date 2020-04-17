@@ -1,0 +1,20 @@
+SEGMENTATION:
+
+         There are two popularly known algorithms for segmentation:
+	 1. U - NET
+	 2. Mask R-CNN
+
+	U - NET: Example shown are for biomedical examination
+
+		https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47
+		https://github.com/zhixuhao/unet
+		https://www.youtube.com/watch?v=81AvQQnpG4Q
+
+	Mask R-CNN:
+		very well written blog with link to source code - Analytics vidhya
+
+		https://www.analyticsvidhya.com/blog/2019/07/computer-vision-implementing-mask-r-cnn-image-segmentation/
+		https://www.youtube.com/watch?v=2TikTv6PWDw		
+
+	
+	
