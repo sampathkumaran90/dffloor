@@ -1,0 +1,11 @@
+DESCRIPTION ABOUT MODANET:
+
+	http://kylezheng.org/papers/ModaNetslides.pdf
+	https://tech.ebayinc.com/research/modanet-a-large-scale-street-fashion-dataset-with-polygon-annotations/
+	https://github.com/eBay/modanet
+
+IMPLEMENTATION:
+	
+	https://github.com/cad0p/maskrcnn-modanet
+	https://www.analyticsvidhya.com/blog/2019/02/tutorial-semantic-segmentation-google-deeplab/
+		
