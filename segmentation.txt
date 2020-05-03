@@ -1,20 +1,18 @@
-SEGMENTATION:
+PROCEDURES FOR SEGMENTATION
 
-         There are two popularly known algorithms for segmentation:
-	 1. U - NET
-	 2. Mask R-CNN
+1. Create an account in kaggle
 
-	U - NET: Example shown are for biomedical examination
+2. Download the fashion images dataset (Fashion Product Images) - two variations available one with 60*80 dimensions(Fashion Product Images (small)) other 
+with HD images (Fashion Product Images Dataset). The small is version is 550MB and the larger version is 15GB
 
-		https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47
-		https://github.com/zhixuhao/unet
-		https://www.youtube.com/watch?v=81AvQQnpG4Q
+3. Once you download the data, it also provide us with a styles.csv file. Using that csv you can ignore some of the products from the dataset 
+just by parsing the csv and removing the images from the dataset using a python script (say you may not need pants, underwears, sarees, t-shirts, sporting goods etc..).
+This refinement helps to make the dataset available for our purpose.
 
-	Mask R-CNN:
-		very well written blog with link to source code - Analytics vidhya
+4. Once the refinement is done, you can use any of the image segmentation tools available in the market.
+https://www.simonwenkel.com/2019/07/19/list-of-annotation-tools-for-machine-learning-research.html
 
-		https://www.analyticsvidhya.com/blog/2019/07/computer-vision-implementing-mask-r-cnn-image-segmentation/
-		https://www.youtube.com/watch?v=2TikTv6PWDw		
+5. Once it is been annotated, you can use any of the segmentation algorithms like U-NET, MASK RCNN, DEEPLAB V3 etc.. for training
 
-	
-	
+6. During the inference, we first run our segmentation inference, find the segmented image parts and then do cv2 processing to get the results
+ 
